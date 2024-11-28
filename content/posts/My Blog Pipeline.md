@@ -76,3 +76,4 @@ And then to get proper links for these images
 and then paste a photo in the file and put "../" before the photo address.
 
 
+This is a test

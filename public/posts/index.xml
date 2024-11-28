@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on ExampleSite</title>
-    <link>https://examplesite.com/posts/</link>
+    <link>https://blog-aayushsiwa.pages.dev/posts/</link>
     <description>Recent content in Posts on ExampleSite</description>
     <image>
       <title>ExampleSite</title>
-      <url>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://blog-aayushsiwa.pages.dev/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://blog-aayushsiwa.pages.dev/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.139.2</generator>
     <language>en</language>
     <lastBuildDate>Thu, 28 Nov 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://examplesite.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://blog-aayushsiwa.pages.dev/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My First Blog</title>
-      <link>https://examplesite.com/posts/my-blog-pipeline/</link>
+      <link>https://blog-aayushsiwa.pages.dev/posts/my-blog-pipeline/</link>
       <pubDate>Thu, 28 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://examplesite.com/posts/my-blog-pipeline/</guid>
+      <guid>https://blog-aayushsiwa.pages.dev/posts/my-blog-pipeline/</guid>
       <description>&lt;h2 id=&#34;obsidian&#34;&gt;Obsidian&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Obsidian is a good notes app, download it form &lt;a href=&#34;https://obsidian.md&#34;&gt;https://obsidian.md&lt;/a&gt;&lt;/li&gt;
