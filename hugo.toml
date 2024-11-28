@@ -1,5 +1,5 @@
 baseURL = "https://blog-aayushsiwa.pages.dev"
-title = "ExampleSite"
+title = "Blog | aayushsiwa"
 paginate = 5
 theme = "PaperMod"
 enableRobotsTXT = true
@@ -14,9 +14,9 @@ minifyOutput = true
 
 [params]
 env = "production"
-title = "ExampleSite"
-description = "ExampleSite description"
-keywords = [ "Blog", "Portfolio", "PaperMod" ]
+title = "Blog | Aayush Siwa"
+description = "aayushsiwa blog"
+keywords = [ "blog", "aayushsiwa", "PaperMod" ]
 author = "Me"
 images = [ "<link or path of image for opengraph, twitter-cards>" ]
 DateFormat = "January 2, 2006"
@@ -27,7 +27,7 @@ ShowShareButtons = true
 ShowPostNavLinks = true
 ShowBreadCrumbs = true
 ShowCodeCopyButtons = false
-ShowWordCount = true
+ShowWordCount = false
 ShowRssButtonInSectionTermList = true
 UseHugoToc = true
 disableSpecial1stPost = false
