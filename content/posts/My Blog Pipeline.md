@@ -75,5 +75,8 @@ And then to get proper links for these images
 ![](../attachments/Screenshot%202024-11-28%20101615.png)
 and then paste a photo in the file and put "../" before the photo address.
 
-
-This is a test
+### Deploy 
+- First build the Hugo site :
+	`hugo`
+- Now you can push this code to a github repo and deploy the website on platforms like vercel, cloudflare pages, etc.
+ *In root directory put "public"*
