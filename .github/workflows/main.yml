@@ -24,6 +24,7 @@ jobs:
       run: |
         rm -rf public  # Clean previous builds if any
         hugo           # Build the Hugo site
+        ls
         ls public      # List contents of the public folder for debugging
         echo a
         ls public/posts
