@@ -28,6 +28,7 @@ jobs:
       run: |
         hugo
         ls
+        ls content/posts
         
 
       
