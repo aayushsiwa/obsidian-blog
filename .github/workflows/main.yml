@@ -13,11 +13,23 @@ jobs:
     - name: Checkout Repository
       uses: actions/checkout@v4
 
-    - name: Build Hugo Site
-      uses: chabad360/hugo-actions@v2
-      with:
-        buildPath: ./public
+    # - name: Build Hugo Site
+    #   uses: chabad360/hugo-actions@v2
+    #   with:
+    #     buildPath: ./public
+    - name: Install Hugo
+      run: |
+        HUGO_VERSION="0.139.2"  # Specify the version of Hugo
+        wget https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_Linux-64bit.tar.gz
+        tar -xvzf hugo_extended_${HUGO_VERSION}_Linux-64bit.tar.gz
+        sudo mv hugo /usr/local/bin/hugo
 
+    - name: Build Hugo Site
+      run: |
+        hugo
+        
+
+      
     - name: Deploy to deploy Branch
       run: |
         cd public
@@ -26,4 +38,4 @@ jobs:
         git config user.email "github-actions[bot]@users.noreply.github.com"
         git add .
         git commit -m "Deploy site $(date +'%Y-%m-%d %H:%M:%S')"
-        git push --force "https://${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.com/${{ github.repository }}.git" HEAD:deploy
+        git push --force "https://${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}" HEAD:deploy
