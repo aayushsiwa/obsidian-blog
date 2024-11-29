@@ -76,7 +76,7 @@ and then paste a photo in the file and put "../" before the photo address.
 ### Deploy 
 - First build the Hugo site :
 	`hugo`
-- Now you can push this code to a github repo and deploy the website on platforms like vercel, cloudflare pages, etc.
+- Now you canasdasdadas push this code to a github repo and deploy the website on platforms like vercel, cloudflare pages, etc.
  *In root directory put "public"*
 
 
