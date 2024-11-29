@@ -29,13 +29,14 @@ jobs:
         hugo
         ls
         ls content/posts
+        cd public
+        ls posts
         
 
       
-    - name: Deploy to deploy Branch
-      run: |
-        cd public
-        ls posts
+    # - name: Deploy to deploy Branch
+      # run: |
+        
         # git init
         # git config user.name "GitHub Actions Bot"
         # git config user.email "github-actions[bot]@users.noreply.github.com"
