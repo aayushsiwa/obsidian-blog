@@ -26,6 +26,7 @@ jobs:
 
     - name: Build Hugo Site
       run: |
+        rm -r public
         hugo
         ls
         ls content/posts
