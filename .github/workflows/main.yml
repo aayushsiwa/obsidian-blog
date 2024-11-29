@@ -23,6 +23,7 @@ jobs:
     - name: Build Hugo Site
       run: |
         rm -rf public  # Clean previous builds if any
+        cat hugo.toml
         hugo           # Build the Hugo site
         ls
         ls public      # List contents of the public folder for debugging
