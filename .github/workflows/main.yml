@@ -1,0 +1,17 @@
+name: Build Public Folder
+
+on:
+ push:
+  branches:
+    -master
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+  
+    steps:
+    - name: Hugo-Site
+      uses: chabad360/hugo-actions@v2
+      with:
+        buildPath: ./public
+    
+ 
