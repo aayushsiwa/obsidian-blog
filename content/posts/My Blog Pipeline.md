@@ -12,9 +12,7 @@ tags:
 - Obsidian is a good notes app, download it form https://obsidian.md
 ### The Setup
 	Create a new folder labelled "posts".
-```
 	We will only be posting stuff inside this folder and rest of the files will remain untouched.
-```
 
 Now, let's setup Hugo
 
