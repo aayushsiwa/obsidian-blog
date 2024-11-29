@@ -34,7 +34,7 @@ jobs:
     - name: Deploy to deploy Branch
       run: |
         cd public
-        ls
+        ls posts
         # git init
         # git config user.name "GitHub Actions Bot"
         # git config user.email "github-actions[bot]@users.noreply.github.com"
