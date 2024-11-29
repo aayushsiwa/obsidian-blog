@@ -1,17 +1,19 @@
 name: Build Public Folder
 
 on:
- push:
-  branches:
-    -master
+  push:
+    branches:
+      - master  # Ensure correct spacing and branch name format
+
 jobs:
   sync:
     runs-on: ubuntu-latest
-  
+
     steps:
-    - name: Hugo-Site
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+
+    - name: Build Hugo Site
       uses: chabad360/hugo-actions@v2
       with:
         buildPath: ./public
-    
- 
