@@ -13,10 +13,6 @@ jobs:
     - name: Checkout Repository
       uses: actions/checkout@v4
 
-    # - name: Build Hugo Site
-    #   uses: chabad360/hugo-actions@v2
-    #   with:
-    #     buildPath: ./public
     - name: Install Hugo
       run: |
         HUGO_VERSION="0.139.2"  # Specify the version of Hugo
@@ -26,21 +22,18 @@ jobs:
 
     - name: Build Hugo Site
       run: |
-        rm -r public
-        hugo
-        ls
-        ls content/posts
-        cd public
-        ls posts
-        
+        rm -rf public  # Clean previous builds if any
+        hugo           # Build the Hugo site
+        ls public      # List contents of the public folder for debugging
+        echo a
+        ls public/posts
 
-      
-    # - name: Deploy to deploy Branch
-      # run: |
-        
-        # git init
-        # git config user.name "GitHub Actions Bot"
-        # git config user.email "github-actions[bot]@users.noreply.github.com"
-        # git add .
-        # git commit -m "Deploy site $(date +'%Y-%m-%d %H:%M:%S')"
-        # git push --force "https://${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.com/${{ github.repository }}" HEAD:deploy
+    - name: Deploy to deploy Branch
+      run: |
+        cd public
+        git init
+        git config user.name "GitHub Actions Bot"
+        git config user.email "github-actions[bot]@users.noreply.github.com"
+        git add .
+        git commit -m "Deploy site $(date +'%Y-%m-%d %H:%M:%S')"
+        git push --force "https://${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.com/${{ github.repository }}" HEAD:deploy
