@@ -1,5 +1,5 @@
-baseURL: "https://examplesite.com/"
-title: ExampleSite
+baseURL: "https://blog.aayushsiwa.is-a.dev/"
+title: Blog | aayushsiwa
 paginate: 5
 theme: PaperMod
 
@@ -17,7 +17,7 @@ params:
   title: ExampleSite
   description: "ExampleSite description"
   keywords: [Blog, Portfolio, PaperMod]
-  author: Me
+  # author: Me
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
@@ -28,7 +28,7 @@ params:
   ShowShareButtons: true
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
-  ShowCodeCopyButtons: false
+  ShowCodeCopyButtons: true
   ShowWordCount: true
   ShowRssButtonInSectionTermList: true
   UseHugoToc: true
@@ -56,10 +56,10 @@ params:
 
   # profile-mode
   profileMode:
-    enabled: false # needs to be explicitly set
-    title: ExampleSite
-    subtitle: "This is subtitle"
-    imageUrl: "<img location>"
+    enabled: true # needs to be explicitly set
+    title: Blog | Aayush Siwa
+    # subtitle: "This is subtitle"
+    imageUrl: "https://avatars.githubusercontent.com/u/114244228?v=4"
     imageWidth: 120
     imageHeight: 120
     imageTitle: my image
@@ -96,7 +96,7 @@ params:
     hiddenInSingle: true # hide on single page
 
   editPost:
-    URL: "https://github.com/<path_to_repo>/content"
+    URL: "https://github.com/aayushsiwa/obsidian-blog/tree/master/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 
@@ -113,17 +113,17 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
-    - identifier: categories
-      name: categories
-      url: /categories/
-      weight: 10
+    # - identifier: categories
+    #   name: categories
+    #   url: /categories/
+    #   weight: 10
     - identifier: tags
       name: tags
       url: /tags/
       weight: 20
-    - identifier: example
-      name: example.org
-      url: https://example.org
+    - identifier: main
+      name: aayushsiwa.is-a.dev
+      url: https://aayushsiwa.is-a.dev
       weight: 30
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
