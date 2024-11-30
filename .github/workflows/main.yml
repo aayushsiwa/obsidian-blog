@@ -3,7 +3,7 @@ name: Build and Deploy Hugo Site
 on:
   push:
     branches:
-      - master  # Trigger on push to master
+      - second  # Trigger on push to master
 
 jobs:
   build-and-deploy:
@@ -22,18 +22,19 @@ jobs:
 
     - name: Build Hugo Site
       run: |
-        rm -rf public  # Clean previous builds if any
-        cat hugo.toml
-        hugo build          # Build the Hugo site
+        # rm -rf public  # Clean previous builds if any
+        # cat hugo.toml
+        # hugo build          # Build the Hugo site
+        hugo
         ls
-        ls public      # List contents of the public folder for debugging
-        echo a
-        ls public/posts
+        # ls public      # List contents of the public folder for debugging
+        # echo a
+        # ls public/posts
 
     - name: Deploy to deploy Branch
       run: |
-        cd public
-        git init
+        # cd public
+        # git init
         git config user.name "GitHub Actions Bot"
         git config user.email "github-actions[bot]@users.noreply.github.com"
         git add .
