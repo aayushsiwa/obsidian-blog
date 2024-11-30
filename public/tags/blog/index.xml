@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Blog | aayushsiwa</title>
-    <link>https://blog.aayushsiwa.is-a.dev/</link>
-    <description>Recent content on Blog | aayushsiwa</description>
+    <title>Blog on Blog | aayushsiwa</title>
+    <link>https://blog.aayushsiwa.is-a.dev/tags/blog/</link>
+    <description>Recent content in Blog on Blog | aayushsiwa</description>
     <image>
       <title>Blog | aayushsiwa</title>
       <url>https://blog.aayushsiwa.is-a.dev/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
@@ -12,7 +12,7 @@
     <generator>Hugo -- 0.139.3</generator>
     <language>en</language>
     <lastBuildDate>Thu, 28 Nov 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://blog.aayushsiwa.is-a.dev/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://blog.aayushsiwa.is-a.dev/tags/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My First Blog</title>
       <link>https://blog.aayushsiwa.is-a.dev/posts/asadsadada/</link>
