@@ -1,3 +1,1 @@
 User-agent: *
-Disallow:
-Sitemap: https://blog-aayushsiwa.pages.dev/sitemap.xml
