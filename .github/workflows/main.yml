@@ -31,6 +31,7 @@ jobs:
         # ls public      # List contents of the public folder for debugging
         # echo a
         # ls public/posts
+        rm .hugo_build.lock
 
     - name: Deploy to deploy Branch
       run: |
