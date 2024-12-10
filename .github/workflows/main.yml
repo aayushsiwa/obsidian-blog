@@ -19,6 +19,7 @@ jobs:
         wget https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_Linux-64bit.tar.gz
         tar -xvzf hugo_extended_${HUGO_VERSION}_Linux-64bit.tar.gz
         sudo mv hugo /usr/local/bin/hugo
+        rm hugo_extended_${HUGO_VERSION}_Linux-64bit.tar.gz
 
     - name: Build Hugo Site
       run: |
