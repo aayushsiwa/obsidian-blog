@@ -67,7 +67,7 @@ to the starting of our file.
 ### Attachments
 Now by default Obsidian stores attachments in a specific folder called attachments but with that its complicated to fetch images every time from that folder.
 Rather what we can do is 
-![](../attachments/Pasted%20image%2020241128101531.png)
+![](../attachments/Pasted%20image%2020241128172509.png)
 change the default location for attachments to "In subfolder under current folder" and this will store our attachments in an "attachment" folder in our current folder i.e., where the current file being edited is stored.
 And then to get proper links for these images
 ![](../attachments/Screenshot%202024-11-28%20101615.png)
@@ -78,6 +78,3 @@ and then paste a photo in the file and put "../" before the photo address.
 	`hugo`
 - Now you canasdasdadas push this code to a github repo and deploy the website on platforms like vercel, cloudflare pages, etc.
  *In root directory put "public"*
-
-
-test5

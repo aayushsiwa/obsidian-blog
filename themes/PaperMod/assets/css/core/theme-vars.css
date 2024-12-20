@@ -6,27 +6,27 @@
     --header-height: 60px;
     --footer-height: 60px;
     --radius: 8px;
-    --theme: rgb(255, 255, 255);
-    --entry: rgb(255, 255, 255);
-    --primary: rgb(30, 30, 30);
-    --secondary: rgb(108, 108, 108);
-    --tertiary: rgb(214, 214, 214);
+    --theme: #f6faf4;
+    --entry: #f6faf4;
+    --primary: #3b6723;
+    --secondary: #a4e382;
+    --tertiary: #5ce01a;
     --content: rgb(31, 31, 31);
     --code-block-bg: rgb(28, 29, 33);
     --code-bg: rgb(245, 245, 245);
-    --border: rgb(238, 238, 238);
+    --border: #5ce01a;
 }
 
 .dark {
-    --theme: rgb(29, 30, 32);
-    --entry: rgb(46, 46, 51);
-    --primary: rgb(218, 218, 219);
-    --secondary: rgb(155, 156, 157);
-    --tertiary: rgb(65, 66, 68);
+    --theme: #070b05;
+    --entry: #070b05;
+    --primary: #b0dc99;
+    --secondary: #3e7f1c;
+    --tertiary: #63e520;
     --content: rgb(196, 196, 197);
     --code-block-bg: rgb(46, 46, 51);
     --code-bg: rgb(55, 56, 62);
-    --border: rgb(51, 51, 51);
+    --border: #63e520;
 }
 
 .list {

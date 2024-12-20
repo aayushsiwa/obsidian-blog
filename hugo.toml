@@ -1,0 +1,145 @@
+baseURL = "https://blog.aayushsiwa.is-a.dev/"
+title = "blogs | aayushsiwa"
+paginate = 5
+theme = "PaperMod"
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+pygmentsUseClasses = true
+
+[minify]
+disableXML = true
+minifyOutput = true
+
+[params]
+env = "production"
+title = "aayushsiwa blogs"
+description = "Blogs written by aayushsiwa"
+keywords = [ "Blog", "Portfolio", "PaperMod" ]
+images = [ "<link or path of image for opengraph, twitter-cards>" ]
+DateFormat = "January 2, 2006"
+defaultTheme = "dark"
+disableThemeToggle = false
+ShowReadingTime = true
+ShowShareButtons = false
+ShowPostNavLinks = false
+ShowBreadCrumbs = false
+ShowCodeCopyButtons = true
+ShowWordCount = true
+ShowRssButtonInSectionTermList = true
+UseHugoToc = false
+disableSpecial1stPost = false
+disableScrollToTop = false
+comments = true
+hidemeta = false
+hideSummary = false
+showtoc = true
+tocopen = true
+
+  [params.assets]
+  favicon = "<link / abs url>"
+  favicon16x16 = "<link / abs url>"
+  favicon32x32 = "<link / abs url>"
+  apple_touch_icon = "<link / abs url>"
+  safari_pinned_tab = "<link / abs url>"
+  theme_color="#147ef5"
+  msapplication_TileColor="#147ef5"
+
+  [params.label]
+  text = ""
+  icon = "https://avatars.githubusercontent.com/u/114244228?v=4"
+  iconHeight = 35
+
+  [params.profileMode]
+  enabled = false
+  title = "Aayush Siwach"
+  subtitle = "This is subtitle"
+  imageUrl = "https://avatars.githubusercontent.com/u/114244228?v=4"
+  imageWidth = 120
+  imageHeight = 120
+  imageTitle = "my image"
+
+    [[params.profileMode.buttons]]
+    name = "Posts"
+    url = "posts"
+
+    [[params.profileMode.buttons]]
+    name = "Tags"
+    url = "tags"
+
+  
+
+  [[params.socialIcons]]
+  name = "linkedin"
+  url = "https://linkedin.com/in/aayush-siwach"
+
+  [[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/aayushsiwa"
+
+[params.analytics.google]
+SiteVerificationTag = "XYZabc"
+
+[params.analytics.bing]
+SiteVerificationTag = "XYZabc"
+
+[params.analytics.yandex]
+SiteVerificationTag = "XYZabc"
+
+  [params.cover]
+  hidden = false
+  hiddenInList = false
+  hiddenInSingle = false
+  linkFullImages=true
+  responsiveImages=true
+
+  [params.editPost]
+  URL = "https://github.com/aayushsiwa/obsidian-blog/blob/master/content"
+  Text = "Suggest Changes"
+  appendFilePath = true
+
+  [params.fuseOpts]
+  isCaseSensitive = false
+  shouldSort = true
+  location = 0
+  distance = 1000
+  threshold = 0.4
+  minMatchCharLength = 0
+  limit = 10
+  keys = [ "title", "permalink", "summary", "content" ]
+
+
+[[menu.main]]
+name = "search"
+url = "search/"
+weight = 10
+
+[[menu.main]]
+identifier = "categories"
+name = "categories"
+url = "/categories/"
+weight = 10
+
+[[menu.main]]
+identifier = "tags"
+name = "tags"
+url = "/tags/"
+weight = 20
+
+[[menu.main]]
+identifier = "aayushsiwa"
+name = "more"
+url = "https://aayushsiwa.is-a.dev"
+weight = 30
+
+[[menu.main]]
+name = "about"
+url = "about/"
+weight = 10
+
+[markup.highlight]
+noClasses = true
+
+[outputs]
+home = [ "HTML", "RSS", "JSON" ]
