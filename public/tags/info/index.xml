@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Info on My New Hugo Site</title>
+    <link>https://example.org/tags/info/</link>
+    <description>Recent content in Info on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 28 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://example.org/tags/info/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Blog</title>
+      <link>https://example.org/posts/my-blog-pipeline/</link>
+      <pubDate>Thu, 28 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.org/posts/my-blog-pipeline/</guid>
+      <description>&lt;h2 id=&#34;obsidian&#34;&gt;Obsidian&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Obsidian is a good notes app, download it form &lt;a href=&#34;https://obsidian.md&#34;&gt;https://obsidian.md&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;the-setup&#34;&gt;The Setup&lt;/h3&gt;&#xA;&lt;pre&gt;&lt;code&gt;Create a new folder labelled &amp;quot;posts&amp;quot;.&#xA;We will only be posting stuff inside this folder and rest of the files will remain untouched.&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;Now, let&amp;rsquo;s setup Hugo&lt;/p&gt;&#xA;&lt;h2 id=&#34;hugo&#34;&gt;Hugo&lt;/h2&gt;&#xA;&lt;h3 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Install Git &lt;a href=&#34;https://github.com/git-guides/install-git&#34;&gt;https://github.com/git-guides/install-git&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Install Go &lt;a href=&#34;https://go.dev/dl&#34;&gt;https://go.dev/dl&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;install-hugo&#34;&gt;Install Hugo&lt;/h3&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://gohugo.io/installation&#34;&gt;https://gohugo.io/installation&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;create-a-new-site&#34;&gt;Create a new site&lt;/h3&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;## check hugo installation&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo version&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;## create a new site&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo new site &amp;lt;site-name&amp;gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cd site-name&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;download-hugo-theme&#34;&gt;Download Hugo theme&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Find themes at &lt;a href=&#34;https://themes.gohugo.io&#34;&gt;https://themes.gohugo.io&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
