@@ -116,9 +116,9 @@ url = "search/"
 weight = 10
 
 [[menu.main]]
-identifier = "categories"
-name = "categories"
-url = "/categories/"
+identifier = "archive"
+name = "archive"
+url = "/archive/"
 weight = 10
 
 [[menu.main]]

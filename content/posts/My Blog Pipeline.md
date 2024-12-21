@@ -1,5 +1,5 @@
 ---
-title: My First Blog
+title: MY BLOG PIPELINE
 date: 2024-11-28
 draft: false
 tags:
@@ -7,77 +7,175 @@ tags:
   - info
 ---
 
+## **Obsidian**
 
-## Obsidian
-- Obsidian is a good notes app, download it form https://obsidian.md
-### The Setup
-	Create a new folder labelled "posts".
-	We will only be posting stuff inside this folder and rest of the files will remain untouched.
+Obsidian is an excellent note-taking app. Download it from [Obsidian.md](https://obsidian.md).
 
-Now, let's setup Hugo
+### **The Setup**
 
-## Hugo
+1. Create a new folder named `posts`.
+2. Store all your posts inside this folder; the rest of the files will remain untouched.
 
-### Prerequisites
-- Install Git https://github.com/git-guides/install-git
-- Install Go https://go.dev/dl
+---
 
-### Install Hugo
-https://gohugo.io/installation
+## **Hugo**
 
-### Create a new site
+### **Prerequisites**
+
+- [Install Git](https://github.com/git-guides/install-git)
+- [Install Go](https://go.dev/dl)
+
+### **Install Hugo**
+
+Follow the instructions at [Hugo Installation Guide](https://gohugo.io/installation).
+
+### **Create a New Site**
+
 ```shell
-## check hugo installation
+# Verify Hugo installation
 hugo version
 
-## create a new site
+# Create a new site
 hugo new site <site-name>
-cd site-name
+cd <site-name>
 ```
 
-### Download Hugo theme
-- Find themes at https://themes.gohugo.io
-- best way to install a theme is *as a  git submodule*
-	`git submodule add --depth=1 https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod`
-	
-	follow instructions to setup theme and configuration file
-### Test Hugo site
+### **Download a Hugo Theme**
+
+1. Explore themes at [Hugo Themes](https://themes.gohugo.io).
+2. Install a theme (e.g., PaperMod) as a Git submodule:
+    
+    ```shell
+    git submodule add --depth=1 https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod
+    ```
+    
+3. Follow the theme's documentation to complete the setup.
+
+### **Sample `hugo.toml` File**
+
+```toml
+baseURL = "https://examplesite.com/"
+title = "ExampleSite"
+paginate = 5
+theme = "PaperMod"
+enableRobotsTXT = true
+
+[params]
+env = "production"
+title = "ExampleSite"
+description = "ExampleSite description"
+keywords = ["Blog", "Portfolio", "PaperMod"]
+author = "Me"
+defaultTheme = "auto"
+ShowReadingTime = true
+ShowWordCount = true
+```
+
+### **Test Hugo Site**
+
 ```shell
 hugo server -t PaperMod
 ```
 
-Now the page appears empty beacuse we haven't put our blog files in it
-To do that just copy the *posts* folder made in Obsidian and paste it in the content folder of your hugo site
+> **Note**: The page may appear empty initially because no posts are added yet. Copy the `posts` folder from Obsidian into the `content` folder of your Hugo site.
 
-### Add Properties 
-We can add properties to the markdown file by toggling to source mode and adding 
-```yml
+---
+
+## **Blog Properties**
+
+Add properties (front matter) to your Markdown files. For example:
+
+```yaml
 ---
 title: My Blog Pipeline
 date: 2024-11-28
 draft: false
 tags:
--blog
+  - blog
 ---
 ```
-to the starting of our file.
 
-*We can also create a template for our blogs by using Templater plugin available in Obsidian*
+> Use the Templater plugin in Obsidian to streamline this process.
 
-### Attachments
-Now by default Obsidian stores attachments in a specific folder called attachments but with that its complicated to fetch images every time from that folder.
-Rather what we can do is 
-![](../attachments/Pasted%20image%2020241128172509.png)
-change the default location for attachments to "In subfolder under current folder" and this will store our attachments in an "attachment" folder in our current folder i.e., where the current file being edited is stored.
-And then to get proper links for these images
-![](../attachments/Screenshot%202024-11-28%20101615.png)
-and then paste a photo in the file and put "../" before the photo address.
+---
 
-### Deploy 
-- First build the Hugo site :
-	`hugo`
-- Now you canasdasdadas push this code to a github repo and deploy the website on platforms like vercel, cloudflare pages, etc.
- *In root directory put "public"*
+## **Attachments**
 
+To simplify image handling in Obsidian:
 
-test5
+1. Set the default location for attachments to "In subfolder under current folder."
+2. Add `../` before the image address to reference it correctly.
+
+---
+
+## **Deploy Hugo Site**
+
+### **Build the Hugo Site**
+
+```shell
+hugo
+```
+
+> The output will be in the `public` folder. Deploy this folder to platforms like [Vercel](https://vercel.com) or [Cloudflare Pages](https://pages.cloudflare.com).
+
+### **Automate Deployment**
+
+Create a GitHub Action to automate building and deploying your site:
+
+```yaml
+name: Build and Deploy Hugo Site
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+
+    - name: Install Hugo
+      run: |
+        HUGO_VERSION="0.139.2"
+        wget https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_Linux-64bit.tar.gz
+        tar -xvzf hugo_extended_${HUGO_VERSION}_Linux-64bit.tar.gz
+        sudo mv hugo /usr/local/bin/hugo
+        rm hugo_extended_${HUGO_VERSION}_Linux-64bit.tar.gz
+
+    - name: Build Hugo Site
+      run: |
+        rm -rf public
+        hugo
+
+    - name: Deploy to GitHub
+      env:
+        GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+      run: |
+        git config user.name "GitHub Actions Bot"
+        git config user.email "github-actions[bot]@users.noreply.github.com"
+        git add .
+        git commit -m "Deploy site $(date +'%Y-%m-%d %H:%M:%S')"
+        git push --force "https://${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.com/${{ github.repository }}" HEAD:master
+```
+
+### **Add `.gitignore`**
+
+Prevent merge conflicts by ignoring the `public` folder:
+
+```plaintext
+# .gitignore
+public
+```
+
+### **Setup Personal Access Token (PAT)**
+
+1. Generate a PAT at [GitHub PAT Settings](https://github.com/settings/tokens).
+2. Add it as a secret (`PERSONAL_ACCESS_TOKEN`) in your repository settings under **Settings > Secrets and Variables > Actions**.
+
+---
+
+With this setup, you can manage your Hugo blog seamlessly, integrating it with Obsidian for content creation and automating deployments via GitHub Actions.

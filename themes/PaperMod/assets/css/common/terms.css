@@ -8,6 +8,7 @@
     display: block;
     padding: 3px 10px;
     background: var(--tertiary);
+    color: var(--code-block-bg);
     border-radius: 6px;
     transition: transform 0.1s;
 }
