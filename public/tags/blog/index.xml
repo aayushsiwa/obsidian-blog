@@ -14,10 +14,43 @@
     <lastBuildDate>Thu, 28 Nov 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://blog.aayushsiwa.is-a.dev/tags/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My First Blog</title>
+      <title>MY BLOG PIPELINE</title>
       <link>https://blog.aayushsiwa.is-a.dev/posts/my-blog-pipeline/</link>
       <pubDate>Thu, 28 Nov 2024 00:00:00 +0000</pubDate>
       <guid>https://blog.aayushsiwa.is-a.dev/posts/my-blog-pipeline/</guid>
+      <description>&lt;h2 id=&#34;obsidian&#34;&gt;&lt;strong&gt;Obsidian&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Obsidian is an excellent note-taking app. Download it from &lt;a href=&#34;https://obsidian.md&#34;&gt;Obsidian.md&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;the-setup&#34;&gt;&lt;strong&gt;The Setup&lt;/strong&gt;&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Create a new folder named &lt;code&gt;posts&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Store all your posts inside this folder; the rest of the files will remain untouched.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;hugo&#34;&gt;&lt;strong&gt;Hugo&lt;/strong&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;prerequisites&#34;&gt;&lt;strong&gt;Prerequisites&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/git-guides/install-git&#34;&gt;Install Git&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://go.dev/dl&#34;&gt;Install Go&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;install-hugo&#34;&gt;&lt;strong&gt;Install Hugo&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Follow the instructions at &lt;a href=&#34;https://gohugo.io/installation&#34;&gt;Hugo Installation Guide&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;create-a-new-site&#34;&gt;&lt;strong&gt;Create a New Site&lt;/strong&gt;&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Verify Hugo installation&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;hugo version
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Create a new site&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;hugo new site &amp;lt;site-name&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; &amp;lt;site-name&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;download-a-hugo-theme&#34;&gt;&lt;strong&gt;Download a Hugo Theme&lt;/strong&gt;&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Explore themes at &lt;a href=&#34;https://themes.gohugo.io&#34;&gt;Hugo Themes&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My First Blog</title>
+      <link>https://blog.aayushsiwa.is-a.dev/archive/my-blog-pipeline/</link>
+      <pubDate>Thu, 28 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.aayushsiwa.is-a.dev/archive/my-blog-pipeline/</guid>
       <description>&lt;h2 id=&#34;obsidian&#34;&gt;Obsidian&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Obsidian is a good notes app, download it form &lt;a href=&#34;https://obsidian.md&#34;&gt;https://obsidian.md&lt;/a&gt;&lt;/li&gt;
