@@ -1,2 +1,2 @@
 This is test 2.........................
-![](./attachments/Pasted%20image%2020241209210600.png)
+![](../attachments/Pasted%20image%2020241209210600.png)
