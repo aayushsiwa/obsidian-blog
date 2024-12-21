@@ -48,6 +48,13 @@ We will only be posting stuff inside this folder and rest of the files will rema
 &lt;p&gt;Find themes at &lt;a href=&#34;https://themes.gohugo.io&#34;&gt;https://themes.gohugo.io&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
+      <title>My 1st post</title>
+      <link>http://localhost:1313/posts/untitled/</link>
+      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
+      <guid>http://localhost:1313/posts/untitled/</guid>
+      <description>Desc Text.</description>
+    </item>
+    <item>
       <title></title>
       <link>http://localhost:1313/posts/test/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

@@ -78,3 +78,6 @@ and then paste a photo in the file and put "../" before the photo address.
 	`hugo`
 - Now you canasdasdadas push this code to a github repo and deploy the website on platforms like vercel, cloudflare pages, etc.
  *In root directory put "public"*
+
+
+test5
