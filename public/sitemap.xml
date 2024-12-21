@@ -2,38 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/tags/blog/</loc>
+    <loc>https://blog.aayushsiwa.is-a.dev/tags/blog/</loc>
     <lastmod>2024-11-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://blog.aayushsiwa.is-a.dev/</loc>
     <lastmod>2024-11-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/info/</loc>
+    <loc>https://blog.aayushsiwa.is-a.dev/tags/info/</loc>
     <lastmod>2024-11-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/my-blog-pipeline/</loc>
+    <loc>https://blog.aayushsiwa.is-a.dev/posts/my-blog-pipeline/</loc>
     <lastmod>2024-11-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>https://blog.aayushsiwa.is-a.dev/posts/</loc>
     <lastmod>2024-11-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://blog.aayushsiwa.is-a.dev/tags/</loc>
     <lastmod>2024-11-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/first/</loc>
+    <loc>https://blog.aayushsiwa.is-a.dev/tags/first/</loc>
     <lastmod>2020-09-15T11:30:03+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/untitled/</loc>
+    <loc>https://blog.aayushsiwa.is-a.dev/posts/untitled/</loc>
     <lastmod>2020-09-15T11:30:03+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/test/</loc>
+    <loc>https://blog.aayushsiwa.is-a.dev/posts/test/</loc>
   </url><url>
-    <loc>http://localhost:1313/posts/test2/</loc>
+    <loc>https://blog.aayushsiwa.is-a.dev/posts/test2/</loc>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://blog.aayushsiwa.is-a.dev/about/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://blog.aayushsiwa.is-a.dev/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/search/</loc>
+    <loc>https://blog.aayushsiwa.is-a.dev/search/</loc>
   </url>
 </urlset>
