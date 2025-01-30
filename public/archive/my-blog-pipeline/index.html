@@ -236,12 +236,12 @@ and then paste a photo in the file and put &ldquo;../&rdquo; before the photo ad
 </span></span></span><span class=line><span class=cl><span class=sd>        wget https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_Linux-64bit.tar.gz
 </span></span></span><span class=line><span class=cl><span class=sd>        tar -xvzf hugo_extended_${HUGO_VERSION}_Linux-64bit.tar.gz
 </span></span></span><span class=line><span class=cl><span class=sd>        sudo mv hugo /usr/local/bin/hugo
-</span></span></span><span class=line><span class=cl><span class=sd>        rm hugo_extended_${HUGO_VERSION}_Linux-64bit.tar.gz</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=sd>        rm hugo_extended_${HUGO_VERSION}_Linux-64bit.tar.gz</span><span class=w>        
 </span></span></span><span class=line><span class=cl><span class=w>
 </span></span></span><span class=line><span class=cl><span class=w>    </span>- <span class=nt>name</span><span class=p>:</span><span class=w> </span><span class=l>Build Hugo Site</span><span class=w>
 </span></span></span><span class=line><span class=cl><span class=w>      </span><span class=nt>run</span><span class=p>:</span><span class=w> </span><span class=p>|</span><span class=sd>
 </span></span></span><span class=line><span class=cl><span class=sd>        rm -rf public  # Clean previous builds
-</span></span></span><span class=line><span class=cl><span class=sd>        hugo           # Build the Hugo site</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=sd>        hugo           # Build the Hugo site</span><span class=w>        
 </span></span></span><span class=line><span class=cl><span class=w>
 </span></span></span><span class=line><span class=cl><span class=w>    </span>- <span class=nt>name</span><span class=p>:</span><span class=w> </span><span class=l>Deploy to Deploy Branch</span><span class=w>
 </span></span></span><span class=line><span class=cl><span class=w>      </span><span class=nt>env</span><span class=p>:</span><span class=w>
@@ -251,7 +251,7 @@ and then paste a photo in the file and put &ldquo;../&rdquo; before the photo ad
 </span></span></span><span class=line><span class=cl><span class=sd>        git config user.email &#34;github-actions[bot]@users.noreply.github.com&#34;
 </span></span></span><span class=line><span class=cl><span class=sd>        git add .
 </span></span></span><span class=line><span class=cl><span class=sd>        git commit -m &#34;Deploy site $(date +&#39;%Y-%m-%d %H:%M:%S&#39;)&#34;
-</span></span></span><span class=line><span class=cl><span class=sd>        git push --force &#34;https://${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.com/${{ github.repository }}&#34; HEAD:master</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=sd>        git push --force &#34;https://${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.com/${{ github.repository }}&#34; HEAD:master</span><span class=w>        
 </span></span></span></code></pre></div><p>For this you will need a Personal_Acess_Token from <a href=https://github.com/settings/personal-access-tokens>https://github.com/settings/personal-access-tokens</a>
 Now add the Token at <code>https://github.com/&lt;username>/&lt;repository>/settings/secrets/actions</code>
 in Repository secrets</p><ul><li>Now create a .gitignore file and write &lsquo;public&rsquo; in the file</li></ul><pre tabindex=0><code>#.gitignore
