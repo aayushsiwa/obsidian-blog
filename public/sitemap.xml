@@ -2,13 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://blog.aayushsiwa.is-a.dev/archive/</loc>
-    <lastmod>2024-11-28T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blog.aayushsiwa.is-a.dev/tags/blog/</loc>
-    <lastmod>2024-11-28T00:00:00+00:00</lastmod>
+    <lastmod>2025-01-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.aayushsiwa.is-a.dev/</loc>
+    <lastmod>2025-01-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.aayushsiwa.is-a.dev/tags/firebase/</loc>
+    <lastmod>2025-01-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.aayushsiwa.is-a.dev/posts/idea-board/</loc>
+    <lastmod>2025-01-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.aayushsiwa.is-a.dev/tags/idea-board/</loc>
+    <lastmod>2025-01-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.aayushsiwa.is-a.dev/posts/</loc>
+    <lastmod>2025-01-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.aayushsiwa.is-a.dev/tags/react/</loc>
+    <lastmod>2025-01-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.aayushsiwa.is-a.dev/tags/</loc>
+    <lastmod>2025-01-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.aayushsiwa.is-a.dev/tags/typescript/</loc>
+    <lastmod>2025-01-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.aayushsiwa.is-a.dev/tags/vite/</loc>
+    <lastmod>2025-01-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.aayushsiwa.is-a.dev/archive/</loc>
     <lastmod>2024-11-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.aayushsiwa.is-a.dev/tags/info/</loc>
@@ -18,12 +42,6 @@
     <lastmod>2024-11-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.aayushsiwa.is-a.dev/archive/my-blog-pipeline/</loc>
-    <lastmod>2024-11-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.aayushsiwa.is-a.dev/posts/</loc>
-    <lastmod>2024-11-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.aayushsiwa.is-a.dev/tags/</loc>
     <lastmod>2024-11-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.aayushsiwa.is-a.dev/posts/test2/</loc>

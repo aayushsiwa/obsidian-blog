@@ -9,15 +9,50 @@
       <url>https://blog.aayushsiwa.is-a.dev/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://blog.aayushsiwa.is-a.dev/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- 0.139.2</generator>
+    <generator>Hugo -- 0.142.0</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 28 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 02 Jan 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://blog.aayushsiwa.is-a.dev/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Blog</title>
       <link>https://blog.aayushsiwa.is-a.dev/tags/blog/</link>
-      <pubDate>Thu, 28 Nov 2024 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 02 Jan 2025 00:00:00 +0000</pubDate>
       <guid>https://blog.aayushsiwa.is-a.dev/tags/blog/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Firebase</title>
+      <link>https://blog.aayushsiwa.is-a.dev/tags/firebase/</link>
+      <pubDate>Thu, 02 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://blog.aayushsiwa.is-a.dev/tags/firebase/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Idea-Board</title>
+      <link>https://blog.aayushsiwa.is-a.dev/tags/idea-board/</link>
+      <pubDate>Thu, 02 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://blog.aayushsiwa.is-a.dev/tags/idea-board/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>React</title>
+      <link>https://blog.aayushsiwa.is-a.dev/tags/react/</link>
+      <pubDate>Thu, 02 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://blog.aayushsiwa.is-a.dev/tags/react/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Typescript</title>
+      <link>https://blog.aayushsiwa.is-a.dev/tags/typescript/</link>
+      <pubDate>Thu, 02 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://blog.aayushsiwa.is-a.dev/tags/typescript/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Vite</title>
+      <link>https://blog.aayushsiwa.is-a.dev/tags/vite/</link>
+      <pubDate>Thu, 02 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://blog.aayushsiwa.is-a.dev/tags/vite/</guid>
       <description></description>
     </item>
     <item>

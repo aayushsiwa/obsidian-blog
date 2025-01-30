@@ -236,12 +236,12 @@ and then paste a photo in the file and put &ldquo;../&rdquo; before the photo ad
 </span></span></span><span class=line><span class=cl><span class=sd>        wget https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_Linux-64bit.tar.gz
 </span></span></span><span class=line><span class=cl><span class=sd>        tar -xvzf hugo_extended_${HUGO_VERSION}_Linux-64bit.tar.gz
 </span></span></span><span class=line><span class=cl><span class=sd>        sudo mv hugo /usr/local/bin/hugo
-</span></span></span><span class=line><span class=cl><span class=sd>        rm hugo_extended_${HUGO_VERSION}_Linux-64bit.tar.gz</span><span class=w>        
+</span></span></span><span class=line><span class=cl><span class=sd>        rm hugo_extended_${HUGO_VERSION}_Linux-64bit.tar.gz</span><span class=w>
 </span></span></span><span class=line><span class=cl><span class=w>
 </span></span></span><span class=line><span class=cl><span class=w>    </span>- <span class=nt>name</span><span class=p>:</span><span class=w> </span><span class=l>Build Hugo Site</span><span class=w>
 </span></span></span><span class=line><span class=cl><span class=w>      </span><span class=nt>run</span><span class=p>:</span><span class=w> </span><span class=p>|</span><span class=sd>
 </span></span></span><span class=line><span class=cl><span class=sd>        rm -rf public  # Clean previous builds
-</span></span></span><span class=line><span class=cl><span class=sd>        hugo           # Build the Hugo site</span><span class=w>        
+</span></span></span><span class=line><span class=cl><span class=sd>        hugo           # Build the Hugo site</span><span class=w>
 </span></span></span><span class=line><span class=cl><span class=w>
 </span></span></span><span class=line><span class=cl><span class=w>    </span>- <span class=nt>name</span><span class=p>:</span><span class=w> </span><span class=l>Deploy to Deploy Branch</span><span class=w>
 </span></span></span><span class=line><span class=cl><span class=w>      </span><span class=nt>env</span><span class=p>:</span><span class=w>
@@ -251,13 +251,13 @@ and then paste a photo in the file and put &ldquo;../&rdquo; before the photo ad
 </span></span></span><span class=line><span class=cl><span class=sd>        git config user.email &#34;github-actions[bot]@users.noreply.github.com&#34;
 </span></span></span><span class=line><span class=cl><span class=sd>        git add .
 </span></span></span><span class=line><span class=cl><span class=sd>        git commit -m &#34;Deploy site $(date +&#39;%Y-%m-%d %H:%M:%S&#39;)&#34;
-</span></span></span><span class=line><span class=cl><span class=sd>        git push --force &#34;https://${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.com/${{ github.repository }}&#34; HEAD:master</span><span class=w>        
+</span></span></span><span class=line><span class=cl><span class=sd>        git push --force &#34;https://${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.com/${{ github.repository }}&#34; HEAD:master</span><span class=w>
 </span></span></span></code></pre></div><p>For this you will need a Personal_Acess_Token from <a href=https://github.com/settings/personal-access-tokens>https://github.com/settings/personal-access-tokens</a>
 Now add the Token at <code>https://github.com/&lt;username>/&lt;repository>/settings/secrets/actions</code>
 in Repository secrets</p><ul><li>Now create a .gitignore file and write &lsquo;public&rsquo; in the file</li></ul><pre tabindex=0><code>#.gitignore
 public
 </code></pre><p><em>this is done because it later may lead to merge issues</em></p><p><em>from inside the obsidian-blog folder</em>
-<em>rsync -av &ndash;delete ../../Obsidian/Notes/posts/ ./content/posts</em></p></div><footer class=post-footer><ul class=post-tags><li><a href=https://blog.aayushsiwa.is-a.dev/tags/blog/>Blog</a></li><li><a href=https://blog.aayushsiwa.is-a.dev/tags/info/>Info</a></li></ul></footer></article></main><footer class=footer><span>&copy; 2024 <a href=https://blog.aayushsiwa.is-a.dev/>blogs | aayushsiwa</a></span> ·
+<em>rsync -av &ndash;delete ../../Obsidian/Notes/posts/ ./content/posts</em></p></div><footer class=post-footer><ul class=post-tags><li><a href=https://blog.aayushsiwa.is-a.dev/tags/blog/>Blog</a></li><li><a href=https://blog.aayushsiwa.is-a.dev/tags/info/>Info</a></li></ul></footer></article></main><footer class=footer><span>&copy; 2025 <a href=https://blog.aayushsiwa.is-a.dev/>blogs | aayushsiwa</a></span> ·
 <span>Powered by
 <a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a> &
         <a href=https://github.com/adityatelange/hugo-PaperMod/ rel=noopener target=_blank>PaperMod</a></span></footer><a href=#top aria-label="go to top" title="Go to Top (Alt + G)" class=top-link id=top-link accesskey=g><svg viewBox="0 0 12 6" fill="currentcolor"><path d="M12 6H0l6-6z"/></svg>

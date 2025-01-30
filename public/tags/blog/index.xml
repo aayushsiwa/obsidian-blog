@@ -9,10 +9,17 @@
       <url>https://blog.aayushsiwa.is-a.dev/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://blog.aayushsiwa.is-a.dev/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- 0.139.2</generator>
+    <generator>Hugo -- 0.142.0</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 28 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 02 Jan 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://blog.aayushsiwa.is-a.dev/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Idea Board</title>
+      <link>https://blog.aayushsiwa.is-a.dev/posts/idea-board/</link>
+      <pubDate>Thu, 02 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://blog.aayushsiwa.is-a.dev/posts/idea-board/</guid>
+      <description>A basic web app &amp;#34;Idea Board&amp;#34; to store our ideas</description>
+    </item>
     <item>
       <title>MY BLOG PIPELINE</title>
       <link>https://blog.aayushsiwa.is-a.dev/posts/my-blog-pipeline/</link>
