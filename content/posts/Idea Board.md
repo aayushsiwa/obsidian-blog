@@ -86,7 +86,10 @@ index.css
 @import "tailwindcss";
 ```
 
-As said above we can remove src/App.css and src/assets/react.svg
+As said above we can remove `src/App.css`, `src/assets/react.svg` and `public/vite.svg`
 And we can change the title in index.html
 
-## Step 3: 
+## Step 3: Now let's create a basic webpage
+create a nav bar that shows options to login and implement authentication
+For authentication and database, we will be using Google Firebase
+So create a project in firebase and let's get going.

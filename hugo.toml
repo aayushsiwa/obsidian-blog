@@ -1,6 +1,6 @@
 baseURL = "https://blog.aayushsiwa.is-a.dev/"
 title = "blogs | aayushsiwa"
-paginate = 5
+papersize=10
 theme = "PaperMod"
 enableRobotsTXT = true
 buildDrafts = false

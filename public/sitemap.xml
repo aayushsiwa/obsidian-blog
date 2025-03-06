@@ -2,54 +2,53 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://blog.aayushsiwa.is-a.dev/tags/blog/</loc>
+    <loc>http://localhost:1313/tags/actions/</loc>
+    <lastmod>2025-01-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/blog/</loc>
+    <lastmod>2025-01-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2025-01-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/building-a-dynamic-github-portfolio-with-ai-and-automation/</loc>
+    <lastmod>2025-01-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/github/</loc>
+    <lastmod>2025-01-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2025-01-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-01-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/firebase/</loc>
     <lastmod>2025-01-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.aayushsiwa.is-a.dev/</loc>
+    <loc>http://localhost:1313/posts/idea-board/</loc>
     <lastmod>2025-01-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.aayushsiwa.is-a.dev/tags/firebase/</loc>
+    <loc>http://localhost:1313/tags/idea-board/</loc>
     <lastmod>2025-01-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.aayushsiwa.is-a.dev/posts/idea-board/</loc>
+    <loc>http://localhost:1313/tags/react/</loc>
     <lastmod>2025-01-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.aayushsiwa.is-a.dev/tags/idea-board/</loc>
+    <loc>http://localhost:1313/tags/typescript/</loc>
     <lastmod>2025-01-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.aayushsiwa.is-a.dev/posts/</loc>
+    <loc>http://localhost:1313/tags/vite/</loc>
     <lastmod>2025-01-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.aayushsiwa.is-a.dev/tags/react/</loc>
-    <lastmod>2025-01-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.aayushsiwa.is-a.dev/tags/</loc>
-    <lastmod>2025-01-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.aayushsiwa.is-a.dev/tags/typescript/</loc>
-    <lastmod>2025-01-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.aayushsiwa.is-a.dev/tags/vite/</loc>
-    <lastmod>2025-01-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.aayushsiwa.is-a.dev/archive/</loc>
+    <loc>http://localhost:1313/tags/info/</loc>
     <lastmod>2024-11-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.aayushsiwa.is-a.dev/tags/info/</loc>
+    <loc>http://localhost:1313/posts/my-blog-pipeline/</loc>
     <lastmod>2024-11-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.aayushsiwa.is-a.dev/posts/my-blog-pipeline/</loc>
-    <lastmod>2024-11-28T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/posts/test2/</loc>
   </url><url>
-    <loc>https://blog.aayushsiwa.is-a.dev/archive/my-blog-pipeline/</loc>
-    <lastmod>2024-11-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.aayushsiwa.is-a.dev/posts/test2/</loc>
-  </url><url>
-    <loc>https://blog.aayushsiwa.is-a.dev/about/</loc>
-  </url><url>
-    <loc>https://blog.aayushsiwa.is-a.dev/categories/</loc>
-  </url><url>
-    <loc>https://blog.aayushsiwa.is-a.dev/search/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url>
 </urlset>

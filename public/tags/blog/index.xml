@@ -2,29 +2,36 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Blog on blogs | aayushsiwa</title>
-    <link>https://blog.aayushsiwa.is-a.dev/tags/blog/</link>
+    <link>http://localhost:1313/tags/blog/</link>
     <description>Recent content in Blog on blogs | aayushsiwa</description>
     <image>
       <title>blogs | aayushsiwa</title>
-      <url>https://blog.aayushsiwa.is-a.dev/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://blog.aayushsiwa.is-a.dev/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- 0.142.0</generator>
+    <generator>Hugo -- 0.145.0</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 02 Jan 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://blog.aayushsiwa.is-a.dev/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 10 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building a Dynamic GitHub Portfolio with AI and Automation (with Code)</title>
+      <link>http://localhost:1313/posts/building-a-dynamic-github-portfolio-with-ai-and-automation/</link>
+      <pubDate>Fri, 10 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/building-a-dynamic-github-portfolio-with-ai-and-automation/</guid>
+      <description>I embarked on a project to create a dynamic and informative portfolio for my GitHub repositories. My goal was to automatically generate concise and engaging descriptions for each project, and then store those descriptions in a JSON file, ready to be used on a portfolio website.</description>
+    </item>
     <item>
       <title>Idea Board</title>
-      <link>https://blog.aayushsiwa.is-a.dev/posts/idea-board/</link>
+      <link>http://localhost:1313/posts/idea-board/</link>
       <pubDate>Thu, 02 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://blog.aayushsiwa.is-a.dev/posts/idea-board/</guid>
+      <guid>http://localhost:1313/posts/idea-board/</guid>
       <description>A basic web app &amp;#34;Idea Board&amp;#34; to store our ideas</description>
     </item>
     <item>
       <title>MY BLOG PIPELINE</title>
-      <link>https://blog.aayushsiwa.is-a.dev/posts/my-blog-pipeline/</link>
+      <link>http://localhost:1313/posts/my-blog-pipeline/</link>
       <pubDate>Thu, 28 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://blog.aayushsiwa.is-a.dev/posts/my-blog-pipeline/</guid>
+      <guid>http://localhost:1313/posts/my-blog-pipeline/</guid>
       <description>&lt;h2 id=&#34;obsidian&#34;&gt;&lt;strong&gt;Obsidian&lt;/strong&gt;&lt;/h2&gt;
 &lt;p&gt;Obsidian is an excellent note-taking app. Download it from &lt;a href=&#34;https://obsidian.md&#34;&gt;Obsidian.md&lt;/a&gt;.&lt;/p&gt;
 &lt;h3 id=&#34;the-setup&#34;&gt;&lt;strong&gt;The Setup&lt;/strong&gt;&lt;/h3&gt;
@@ -52,40 +59,6 @@
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;Explore themes at &lt;a href=&#34;https://themes.gohugo.io&#34;&gt;Hugo Themes&lt;/a&gt;.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>My First Blog</title>
-      <link>https://blog.aayushsiwa.is-a.dev/archive/my-blog-pipeline/</link>
-      <pubDate>Thu, 28 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://blog.aayushsiwa.is-a.dev/archive/my-blog-pipeline/</guid>
-      <description>&lt;h2 id=&#34;obsidian&#34;&gt;Obsidian&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Obsidian is a good notes app, download it form &lt;a href=&#34;https://obsidian.md&#34;&gt;https://obsidian.md&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;the-setup&#34;&gt;The Setup&lt;/h3&gt;
-&lt;pre&gt;&lt;code&gt;Create a new folder labelled &amp;quot;posts&amp;quot;.
-We will only be posting stuff inside this folder and rest of the files will remain untouched.
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Now, let&amp;rsquo;s setup Hugo&lt;/p&gt;
-&lt;h2 id=&#34;hugo&#34;&gt;Hugo&lt;/h2&gt;
-&lt;h3 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Install Git &lt;a href=&#34;https://github.com/git-guides/install-git&#34;&gt;https://github.com/git-guides/install-git&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Install Go &lt;a href=&#34;https://go.dev/dl&#34;&gt;https://go.dev/dl&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;install-hugo&#34;&gt;Install Hugo&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&#34;https://gohugo.io/installation&#34;&gt;https://gohugo.io/installation&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;create-a-new-site&#34;&gt;Create a new site&lt;/h3&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;## check hugo installation&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;hugo version
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;## create a new site&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;hugo new site &amp;lt;site-name&amp;gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; site-name
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;download-hugo-theme&#34;&gt;Download Hugo theme&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Find themes at &lt;a href=&#34;https://themes.gohugo.io&#34;&gt;https://themes.gohugo.io&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
