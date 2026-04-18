@@ -5,7 +5,7 @@ on:
     branches:
       - master
     paths:
-      - 'posts/**'
+      - 'content/posts/**'
   workflow_dispatch:
 
 jobs:

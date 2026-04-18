@@ -78,15 +78,6 @@ tocopen = true
   name = "github"
   url = "https://github.com/aayushsiwa"
 
-[params.analytics.google]
-  # SiteVerificationTag = "XYZabc"
-
-# [params.analytics.bing]
-# SiteVerificationTag = "XYZabc"
-
-# [params.analytics.yandex]
-# SiteVerificationTag = "XYZabc"
-
   [params.cover]
   hidden = false
   hiddenInList = false
